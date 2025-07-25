@@ -35,7 +35,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Email</p>
-                  <p className="text-muted-foreground">alex.johnson@email.com</p>
+                  <p className="text-muted-foreground">vidhulprasad3@gmail.com</p>
                 </div>
               </div>
               
@@ -45,7 +45,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Phone</p>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-muted-foreground">+91 9074764296</p>
                 </div>
               </div>
               
@@ -55,7 +55,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Location</p>
-                  <p className="text-muted-foreground">San Francisco, CA</p>
+                  <p className="text-muted-foreground">India,Kerala,kozhikode</p>
                 </div>
               </div>
             </div>
@@ -70,7 +70,7 @@ const Contact = () => {
                   className="border-border/20 text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary"
                   asChild
                 >
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/vithulprasad" target="_blank" rel="noopener noreferrer">
                     <Github className="w-5 h-5" />
                   </a>
                 </Button>
@@ -81,7 +81,7 @@ const Contact = () => {
                   className="border-border/20 text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary"
                   asChild
                 >
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/vidhul-prasad-597567276/" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="w-5 h-5" />
                   </a>
                 </Button>
@@ -92,7 +92,7 @@ const Contact = () => {
                   className="border-border/20 text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary"
                   asChild
                 >
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://x.com/VIDHUL479896" target="_blank" rel="noopener noreferrer">
                     <Twitter className="w-5 h-5" />
                   </a>
                 </Button>
@@ -114,7 +114,7 @@ const Contact = () => {
                     <input 
                       type="text" 
                       className="w-full px-4 py-3 rounded-lg bg-background/50 border border-border/30 text-foreground placeholder-muted-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-                      placeholder="John"
+                      placeholder="first name"
                     />
                   </div>
                   <div>
@@ -124,7 +124,7 @@ const Contact = () => {
                     <input 
                       type="text" 
                       className="w-full px-4 py-3 rounded-lg bg-background/50 border border-border/30 text-foreground placeholder-muted-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-                      placeholder="Doe"
+                      placeholder="last name"
                     />
                   </div>
                 </div>
@@ -136,7 +136,7 @@ const Contact = () => {
                   <input 
                     type="email" 
                     className="w-full px-4 py-3 rounded-lg bg-background/50 border border-border/30 text-foreground placeholder-muted-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-                    placeholder="john@example.com"
+                    placeholder="yourEmail@gmail.com"
                   />
                 </div>
                 

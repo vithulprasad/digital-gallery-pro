@@ -8,7 +8,7 @@ const projects = [
     description: "Full-stack jewelry e-commerce solution with React.js, Node.js, and payment integration. Features include product catalog, user authentication, cart management, and order processing.",
     technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Payment Gateway"],
     image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=400&fit=crop",
-    liveUrl: "#",
+    liveUrl: "https://jewelcasa.com/",
     githubUrl: "#"
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     description: "Customer relationship management system for business operations with lead tracking, customer data management, and sales pipeline visualization.",
     technologies: ["Vue.js", "Node.js", "Express.js", "MySQL", "Dashboard"],
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-    liveUrl: "#",
+    liveUrl: "https://antarai.org/",
     githubUrl: "#"
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     description: "General e-commerce platform with modern UI/UX, product management, user authentication, shopping cart, and secure checkout process.",
     technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Stripe"],
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-    liveUrl: "#",
+    liveUrl: "https://realaccessories.in/",
     githubUrl: "#"
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     description: "Professional business website with responsive design, contact forms, service showcases, and SEO optimization for better online presence.",
     technologies: ["Vue.js", "Node.js", "Express.js", "HTML/CSS", "Responsive Design"],
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
-    liveUrl: "#",
+    liveUrl: "https://letslegislate.in/",
     githubUrl: "#"
   }
 ];
