@@ -14,26 +14,26 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              I'm a passionate full-stack developer with over 5 years of experience 
+              I'm a passionate full-stack Node.js developer with 3+ years of experience 
               creating digital solutions that make a difference. I specialize in 
               modern web technologies and love turning complex problems into 
-              simple, beautiful designs.
+              simple, efficient solutions.
             </p>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               When I'm not coding, you'll find me exploring new technologies, 
               contributing to open-source projects, or sharing knowledge with 
-              the developer community through blog posts and mentoring.
+              the developer community.
             </p>
             
             <div className="grid grid-cols-2 gap-6">
               <div>
                 <h4 className="font-semibold text-foreground mb-2">Frontend</h4>
-                <p className="text-muted-foreground">React, TypeScript, Next.js, Tailwind CSS</p>
+                <p className="text-muted-foreground">React.js, Vue.js, JavaScript, HTML/CSS</p>
               </div>
               <div>
                 <h4 className="font-semibold text-foreground mb-2">Backend</h4>
-                <p className="text-muted-foreground">Node.js, Python, PostgreSQL, MongoDB</p>
+                <p className="text-muted-foreground">Node.js, Express.js, APIs, Databases</p>
               </div>
             </div>
           </div>
@@ -43,8 +43,8 @@ const About = () => {
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-foreground mb-3">🚀 Experience</h3>
                 <p className="text-muted-foreground">
-                  5+ years in web development, working with startups and enterprises 
-                  to deliver scalable solutions.
+                  3+ years in web development, working on diverse projects 
+                  to deliver scalable and efficient solutions.
                 </p>
               </CardContent>
             </Card>

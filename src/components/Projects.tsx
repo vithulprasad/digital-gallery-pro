@@ -4,34 +4,34 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Jewelry E-Commerce Platform",
+    description: "Full-stack jewelry e-commerce solution with React.js, Node.js, and payment integration. Features include product catalog, user authentication, cart management, and order processing.",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Payment Gateway"],
+    image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=400&fit=crop",
+    liveUrl: "#",
+    githubUrl: "#"
+  },
+  {
+    title: "CRM Management System",
+    description: "Customer relationship management system for business operations with lead tracking, customer data management, and sales pipeline visualization.",
+    technologies: ["Vue.js", "Node.js", "Express.js", "MySQL", "Dashboard"],
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+    liveUrl: "#",
+    githubUrl: "#"
+  },
+  {
     title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and order processing.",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+    description: "General e-commerce platform with modern UI/UX, product management, user authentication, shopping cart, and secure checkout process.",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Stripe"],
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
     liveUrl: "#",
     githubUrl: "#"
   },
   {
-    title: "Task Management App",
-    description: "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Socket.io"],
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-    liveUrl: "#",
-    githubUrl: "#"
-  },
-  {
-    title: "Weather Analytics Dashboard",
-    description: "Real-time weather dashboard with data visualization, location-based forecasts, and historical weather analysis.",
-    technologies: ["Vue.js", "D3.js", "Python", "FastAPI", "PostgreSQL"],
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-    liveUrl: "#",
-    githubUrl: "#"
-  },
-  {
-    title: "Social Media Platform",
-    description: "Modern social platform with real-time messaging, content sharing, and advanced privacy controls.",
-    technologies: ["React Native", "GraphQL", "Apollo", "Node.js", "Redis"],
-    image: "https://images.unsplash.com/photo-1611605698335-8b1569810432?w=600&h=400&fit=crop",
+    title: "Business Website",
+    description: "Professional business website with responsive design, contact forms, service showcases, and SEO optimization for better online presence.",
+    technologies: ["Vue.js", "Node.js", "Express.js", "HTML/CSS", "Responsive Design"],
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
     liveUrl: "#",
     githubUrl: "#"
   }

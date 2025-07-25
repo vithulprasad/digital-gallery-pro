@@ -4,7 +4,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -19,17 +19,17 @@ const Hero = () => {
         <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
           Hi, I'm{" "}
           <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
-            Alex Johnson
+            Vidhul Prasad
           </span>
         </h1>
         
         <p className="text-xl md:text-2xl text-foreground/90 mb-8 leading-relaxed">
-          Full-Stack Developer & UI/UX Designer
+          Full-Stack Node.js Developer
         </p>
         
         <p className="text-lg text-foreground/70 mb-12 max-w-2xl mx-auto">
-          I create beautiful, functional web applications with modern technologies 
-          and thoughtful design. Let's build something amazing together.
+          I create robust web applications with 3+ years of experience in frontend and backend development. 
+          Specialized in React.js, Vue.js, Node.js, and Express.js.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

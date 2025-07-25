@@ -5,38 +5,38 @@ const skills = [
   {
     icon: Code,
     title: "Frontend Development",
-    description: "React, TypeScript, Next.js, Vue.js",
-    skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js", "JavaScript ES6+"]
+    description: "React.js, Vue.js, Modern JavaScript",
+    skills: ["React.js", "Vue.js", "JavaScript ES6+", "HTML5", "CSS3", "Responsive Design"]
   },
   {
     icon: Database,
     title: "Backend Development",
-    description: "Node.js, Python, APIs, Databases",
-    skills: ["Node.js", "Python", "Express.js", "PostgreSQL", "MongoDB", "REST APIs"]
-  },
-  {
-    icon: Palette,
-    title: "UI/UX Design",
-    description: "Figma, Prototyping, User Research",
-    skills: ["Figma", "Adobe XD", "Prototyping", "User Research", "Wireframing", "Design Systems"]
+    description: "Node.js, Express.js, APIs",
+    skills: ["Node.js", "Express.js", "REST APIs", "MongoDB", "MySQL", "Server-side Logic"]
   },
   {
     icon: Globe,
-    title: "Web Technologies",
-    description: "Modern web standards and tools",
-    skills: ["HTML5", "CSS3", "Webpack", "Vite", "PWA", "Web Performance"]
+    title: "Full-Stack Integration",
+    description: "End-to-end application development",
+    skills: ["API Design", "Database Design", "Authentication", "State Management", "MVC Architecture", "Deployment"]
+  },
+  {
+    icon: Palette,
+    title: "Frontend Frameworks",
+    description: "Modern UI libraries and frameworks",
+    skills: ["React Components", "Vue Components", "Tailwind CSS", "Bootstrap", "Material UI", "Responsive UI"]
   },
   {
     icon: Smartphone,
-    title: "Mobile Development",
-    description: "React Native, Flutter, Responsive Design",
-    skills: ["React Native", "Flutter", "Responsive Design", "Mobile-First", "PWA", "Cross-Platform"]
+    title: "Web Technologies",
+    description: "Core web development technologies",
+    skills: ["DOM Manipulation", "AJAX", "JSON", "Local Storage", "Session Management", "Progressive Web Apps"]
   },
   {
     icon: GitBranch,
-    title: "DevOps & Tools",
-    description: "Git, CI/CD, Cloud platforms",
-    skills: ["Git", "Docker", "AWS", "Vercel", "CI/CD", "Linux"]
+    title: "Development Tools",
+    description: "Version control and development workflow",
+    skills: ["Git", "GitHub", "VS Code", "NPM", "Webpack", "Code Reviews"]
   }
 ];
 
