@@ -18,7 +18,7 @@ const Hero = () => {
   before:content-[''] before:absolute before:top-[-4px] before:left-[-4px] before:w-[calc(50%+4px)] before:h-[calc(50%+4px)] before:border-t-4 before:border-l-4 before:border-foreground
   after:content-[''] after:absolute after:bottom-[-4px] after:right-[-4px] after:w-[calc(50%+4px)] after:h-[calc(50%+4px)] after:border-b-4 after:border-r-4 after:border-foreground">
             <div  className="bg-red-300 w-full h-full">
-                
+                <img src="https://avatars.githubusercontent.com/u/154957589?v=4" alt="" />
             </div>
        </div>
       {/* Content */}

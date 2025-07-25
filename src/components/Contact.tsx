@@ -1,8 +1,30 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from "lucide-react";
-
+import emailjs from '@emailjs/browser';
+import { useRef } from "react";
 const Contact = () => {
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      'service_5kaemui',     // e.g. 'service_abc123'
+      'template_x4tlhb8',    // e.g. 'template_xyz456'
+      form.current,
+      'HbK1hLPIPU29BN0Dj'      // e.g. 'ZUNPaXXXXXXXX'
+    ).then(
+      () => {
+        alert('Message sent successfully!');
+      },
+      (error) => {
+        console.error(error);
+        alert('Something went wrong.');
+      }
+    );
+  };
+
   return (
     <section className="py-20 px-4 bg-muted/30">
       <div className="max-w-6xl mx-auto">
@@ -105,7 +127,7 @@ const Contact = () => {
             <CardContent className="p-8">
               <h3 className="text-xl font-semibold text-foreground mb-6">Send a Message</h3>
               
-              <form className="space-y-6">
+              <form ref={form} onSubmit={sendEmail}  className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-sm font-medium text-foreground mb-2">
@@ -114,7 +136,8 @@ const Contact = () => {
                     <input 
                       type="text" 
                       className="w-full px-4 py-3 rounded-lg bg-background/50 border border-border/30 text-foreground placeholder-muted-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-                      placeholder="first name"
+                      
+                      name="first_name" placeholder="First Name"
                     />
                   </div>
                   <div>
@@ -124,7 +147,8 @@ const Contact = () => {
                     <input 
                       type="text" 
                       className="w-full px-4 py-3 rounded-lg bg-background/50 border border-border/30 text-foreground placeholder-muted-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-                      placeholder="last name"
+                      
+                      name="last_name" placeholder="Last Name"
                     />
                   </div>
                 </div>
@@ -136,7 +160,7 @@ const Contact = () => {
                   <input 
                     type="email" 
                     className="w-full px-4 py-3 rounded-lg bg-background/50 border border-border/30 text-foreground placeholder-muted-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-                    placeholder="yourEmail@gmail.com"
+                     name="email"  placeholder="Your Email"
                   />
                 </div>
                 
@@ -148,6 +172,7 @@ const Contact = () => {
                     rows={5}
                     className="w-full px-4 py-3 rounded-lg bg-background/50 border border-border/30 text-foreground placeholder-muted-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 resize-none"
                     placeholder="Tell me about your project..."
+                    name="message" 
                   />
                 </div>
                 
