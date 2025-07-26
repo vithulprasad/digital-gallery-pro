@@ -2,13 +2,14 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from "lucide-react";
 import emailjs from '@emailjs/browser';
-import { useRef } from "react";
+import { useRef, useState } from "react";
 const Contact = () => {
     const form = useRef();
+    const [active,setActive] = useState(false)
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+     setActive(true)
     emailjs.sendForm(
       'service_5kaemui',     // e.g. 'service_abc123'
       'template_x4tlhb8',    // e.g. 'template_xyz456'
@@ -16,10 +17,12 @@ const Contact = () => {
       'HbK1hLPIPU29BN0Dj'      // e.g. 'ZUNPaXXXXXXXX'
     ).then(
       () => {
+        setActive(false)
         alert('Message sent successfully!');
       },
       (error) => {
         console.error(error);
+         setActive(false)
         alert('Something went wrong.');
       }
     );
@@ -171,17 +174,19 @@ const Contact = () => {
                   <textarea 
                     rows={5}
                     className="w-full px-4 py-3 rounded-lg bg-background/50 border border-border/30 text-foreground placeholder-muted-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 resize-none"
-                    placeholder="Tell me about your project..."
+                    placeholder="Type your message..."
                     name="message" 
                   />
                 </div>
                 
-                <Button 
-                  type="submit" 
-                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground py-3"
-                >
-                  Send Message
-                </Button>
+         <Button 
+          type="submit" 
+          disabled={active} // Disable only when sending
+          className="w-full bg-primary hover:bg-primary/90 text-primary-foreground py-3"
+        >
+          {active ? 'Sending in progress' : 'Send Message'}
+        </Button>
+
               </form>
             </CardContent>
           </Card>
